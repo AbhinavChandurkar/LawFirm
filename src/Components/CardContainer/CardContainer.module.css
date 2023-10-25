@@ -1,5 +1,5 @@
 .CardContainer{
-    height: 500px;
+    height: 700px;
     flex-shrink: 0;
     background-color: var(--color-secondary-black);
     display: flex;
@@ -7,17 +7,18 @@
     flex-direction: column;
     padding-top: 100px;
     text-align: center;
-    justify-content: center;
 }
 
 .CardContainer h1 {
-    margin-bottom: 20px;
-    padding-left: 800px;
+    margin-bottom: 100px;
+    padding-left: 770px;
+
 }
 
 .container {
+    padding-left: 300px;
     width: 100%;
     display: flex;
     align-items: center;
-    gap: 20px;
+    gap: 50px;
 }

@@ -3,9 +3,9 @@ import styles from "./Card.module.css"
 import CardImage from "../../assets/cardImage.png";
 
 
-const Card = ({heading}) => {
+const Card = ({heading,clicked}) => {
   return (
-    <div className={styles.container}>
+    <div className={`${styles.container} ${clicked ? styles.clicked : ''}`}>
         <img src={CardImage} alt="card" className={styles.image}/>
         <div className={styles.heading}>
             {heading}
