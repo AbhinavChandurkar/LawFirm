@@ -1,0 +1,8 @@
+.heading {
+    color: var(--Pure-White, #FFF);
+    font-family: Inter;
+    font-size: 54px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 143.023%; /* 77.232px */
+}

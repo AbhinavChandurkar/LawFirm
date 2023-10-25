@@ -1,0 +1,23 @@
+.CardContainer{
+    height: 500px;
+    flex-shrink: 0;
+    background-color: var(--color-secondary-black);
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    padding-top: 100px;
+    text-align: center;
+    justify-content: center;
+}
+
+.CardContainer h1 {
+    margin-bottom: 20px;
+    padding-left: 800px;
+}
+
+.container {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}

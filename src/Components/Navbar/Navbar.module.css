@@ -1,0 +1,39 @@
+.navbarContainer {
+    height: 10vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.customButton {
+    color: var(--color-white);
+    border: 1px solid var(--color-white);
+}
+
+.NavAction {
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.logo span {
+    padding: 10px;
+    font-size: larger;
+}
+
+.btn {
+    background-color: var(--color-black);
+    color: var(--color-white);
+    padding: 10px 16px;
+    cursor: pointer;
+    border: 1px solid var(--color-white);
+}
+  

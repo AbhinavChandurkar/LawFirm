@@ -1,0 +1,83 @@
+.heroContainer {
+    height: 90vh;
+    display: flex;
+
+}
+
+.content {
+    width: 30%;
+    height: 50vh;
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    margin-top: 250px;
+    margin-left: 100px;
+    padding-left: 300px;
+}
+
+.content span {
+    color: var(--color-white);
+    text-wrap: wrap;
+    font-weight: 500;
+    opacity: 0.3;
+    margin-bottom: 50px;
+}
+
+.content h1 {
+    color: var(--Pure-White, #FFF);
+    font-family: Inter;
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 147.523%; 
+}
+
+.content h1,
+.emailSection {
+    margin-bottom: 50px; 
+}
+
+
+.emailSection {
+    width: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: var(--color-secondary-black);
+    border-radius: 50px;
+    padding: 10px;
+}
+
+.iconContainer {
+    display: flex;
+    align-items: center;
+}
+
+.icon {
+    color: white;
+}
+
+.emailInput {
+    background-color: var(--secondary-black);
+    color: white;
+    border: none;
+    margin-left: 20px; 
+    font-size: 20px;
+    outline: none;
+}
+
+.emailBtn {
+    background-color: var(--color-primary); /* Set background color */
+    border: none; /* Remove border */
+    border-radius: 40px; /* Set border radius */
+    padding: 15px 30px;
+    cursor: pointer;
+    margin: 0px;
+    font-weight: bolder;
+}
+  
+.imageSection {
+    margin-top: 100px;
+    padding-left: 50px;
+
+}
