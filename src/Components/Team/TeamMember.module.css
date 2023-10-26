@@ -1,0 +1,43 @@
+.memberContainer {
+    width: 344px;
+    height: 109px;
+    flex-shrink: 0;
+    display: flex;
+    align-items: center;
+    margin-bottom: 30px;
+    flex-wrap: wrap;
+    margin-left: 100px;
+  }
+  
+  .imageContainer {
+    border-radius: 50%;
+    overflow: hidden;
+    margin-right: 20px;
+  }
+  
+  .image {
+    width: 100px; 
+    height: 100px; 
+    padding-left: 10px;
+  }
+  
+  .infoContainer {
+    flex-grow: 1;
+  }
+  
+  .name {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .cases {
+    font-size: 16px;
+    opacity: 0.3;
+  }
+  
+  .memberContainer.highlighted {
+    border-radius: 14px;
+    background: #E3B748;
+    color: var(--color-black);
+  }

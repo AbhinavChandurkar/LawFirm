@@ -4,6 +4,7 @@ import line from "../../assets/Line.png"
 import practiseCard from "../../assets/practiseCard.png";
 import CardContainer from '../CardContainer/CardContainer';
 import UserCardContainer from '../CardContainer/UserCardContainer';
+import OurTeam from '../Team/OurTeam';
 
 const Body = () => {
   return (
@@ -24,6 +25,7 @@ const Body = () => {
         <img src={practiseCard} alt="PractiseCard" />
       </div>
       <UserCardContainer />
+      <OurTeam />
     </div>
   )
 }

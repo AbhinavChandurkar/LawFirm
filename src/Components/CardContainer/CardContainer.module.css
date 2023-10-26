@@ -23,3 +23,11 @@
     align-items: center;
     gap: 50px;
 }
+
+.heading {
+    padding-bottom: 80px;
+    font-size: 54px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 143.023%;
+}

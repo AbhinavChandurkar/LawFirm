@@ -1,0 +1,27 @@
+.mainContainer {
+    background-color: var(--color-secondary-black);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+    padding-top: 200px;
+    padding-bottom: 200px;
+}
+
+.heading {
+    font-size: 54px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 143.023%; 
+}
+
+.teamContainer {
+    width: 80%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 50px;
+    flex-wrap: wrap;
+}
+
+
