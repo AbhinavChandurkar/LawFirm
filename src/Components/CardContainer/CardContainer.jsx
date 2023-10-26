@@ -1,6 +1,7 @@
 import React from 'react'
 import Card from '../Card/Card'
 import styles from "./CardContainer.module.css"
+import { successCardData } from '../../Data/Data'
 
 const CardContainer = () => {
 
@@ -8,9 +9,16 @@ const CardContainer = () => {
     <div className={styles.CardContainer}>
         <h1 className={styles.heading}>Why Choose us?</h1>
         <div className={styles.container}>
-            <Card heading={"98% Success Rate"}/>
-            <Card heading={"100% Success Rate"} clicked />
-            <Card heading={"100% Success Rate"}/>
+        {successCardData.map((data, index) => (
+              <Card
+                key={index}
+                heading={data.title}
+                CardImage={data.imageUrl}
+                content={data.content}
+                clicked={index === 1} 
+                userCard={false}
+              />
+            ))}
         </div>
     </div>
   )

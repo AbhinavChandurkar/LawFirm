@@ -58,3 +58,14 @@
 .clicked {
     background-color: #2E2E2E;
 }
+
+.subHeading {
+    text-align: start;
+    padding: 20px 0px 0px 20px;
+    color: var(--Pure-White);
+    font-family: Inter;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+}
