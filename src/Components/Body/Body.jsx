@@ -6,6 +6,8 @@ import CardContainer from '../CardContainer/CardContainer';
 import UserCardContainer from '../CardContainer/UserCardContainer';
 import OurTeam from '../Team/OurTeam';
 import Faq from '../FAQ/Faq';
+import Newsletter from '../Newsletter/Newsletter';
+import Footer from '../Footer/Footer';
 
 const Body = () => {
   return (
@@ -28,6 +30,8 @@ const Body = () => {
       <UserCardContainer />
       <OurTeam />
       <Faq />
+      <Newsletter />
+      <Footer />
     </div>
   )
 }
