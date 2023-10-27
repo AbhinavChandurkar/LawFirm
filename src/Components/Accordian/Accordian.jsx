@@ -26,7 +26,9 @@ export default function BasicAccordion(props) {
           onChange={handleAccordionChange(`panel${index + 1}`)}
         >
           <AccordionSummary
-            expandIcon={<AddCircleIcon style={{ color: "#E3B748" }} />}
+            expandIcon={expanded === `panel${index + 1}` ? null : (
+              <AddCircleIcon style={{ color: "#E3B748" }} />
+            )}
             aria-controls={`panel${index + 1}-content`}
             id={`panel${index + 1}-header`}
             sx={{ backgroundColor: "#1D1D1D" }}

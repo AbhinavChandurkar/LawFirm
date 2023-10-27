@@ -42,3 +42,8 @@
 .heading img {
     padding: 10px;
 }
+
+.disabledArrow {
+    opacity: 0.5; 
+}
+  
