@@ -80,6 +80,24 @@ const teamMemberData = [
   }
 ]
 
+const accordainData = [
+  { 
+    title: 'Do I need a personal injury report?', 
+    content: 'Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequatduis enim velit mollit Exer. met minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequatduis enim velit mollit Exer.'
+  },
+  { 
+    title: 'How much is my case worth?', 
+    content: 'Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequatduis enim velit mollit Exer. met minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequatduis enim velit mollit Exer.'
+  },
+  { 
+    title: 'What should I do right after car accidect', 
+    content: 'Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequatduis enim velit mollit Exer. met minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequatduis enim velit mollit Exer.'
+  },
+  { 
+    title: 'How much is my case worth?', 
+    content: 'Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequatduis enim velit mollit Exer. met minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequatduis enim velit mollit Exer.'
+  },
+]
 
+export {userCardData,successCardData,teamMemberData,accordainData};
 
-  export {userCardData,successCardData,teamMemberData};

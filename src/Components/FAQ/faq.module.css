@@ -1,0 +1,42 @@
+.container {
+    height: 682px;
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: var(--color-secondary-black);
+    padding-top: 200px;
+    padding-bottom: 200px;
+}
+
+.accordainContainer {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.headingContainer{
+    width: 40%;
+    height: 100%;
+    display: flex;
+    align-items: flex-start;
+    padding-left: 100px;
+    padding-top: 300px;
+    flex-direction: column;
+}
+
+.heading{
+    font-size: 54px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 138.023%; 
+}
+
+.subTitle{
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 162.523%; 
+    opacity: 0.3;
+}

@@ -5,6 +5,7 @@ import practiseCard from "../../assets/practiseCard.png";
 import CardContainer from '../CardContainer/CardContainer';
 import UserCardContainer from '../CardContainer/UserCardContainer';
 import OurTeam from '../Team/OurTeam';
+import Faq from '../FAQ/Faq';
 
 const Body = () => {
   return (
@@ -26,6 +27,7 @@ const Body = () => {
       </div>
       <UserCardContainer />
       <OurTeam />
+      <Faq />
     </div>
   )
 }

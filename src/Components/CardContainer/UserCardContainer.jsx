@@ -6,7 +6,7 @@ import leftArrow from "../../assets/leftArrow.png"
 import rightArrow from "../../assets/rightArrow.png"
 
 const UserCardContainer = () => {
-
+  
   return (
     <div className={styles.CardContainer}>
       <div className={styles.heading}>
